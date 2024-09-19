@@ -1,0 +1,210 @@
+@charset "utf-8";
+		.banner{
+			border: 1px solid black;
+			height:350px;
+			width:100%;
+			/* background-image: url('banner.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% 350px; */
+		}
+		.loginbutt{
+			border: transparent;
+			height: 25px;
+			width:250px;
+			position: relative;
+			top:5px;
+			left:120px;
+			bottom: 5px;
+		}
+		.login{
+			border: transparent;
+			background-color: transparent;
+			color: white;
+		}
+		.Createanaccount{
+			border: 1px solid white;
+			background-color: transparent;
+			color: white;
+			height: 30px;
+		}
+		.logo{
+			width: 50px;
+		    height: 50px;
+		    border: solid white;
+		    border-radius: 50%;
+		    background-color: white;
+		    color: red;
+		    position: relative;
+		    top:100px;
+		    left: 590px;
+		    font-size: 24px;
+		   
+		}
+		.Headerlogo{
+			width: 40px;
+		    height: 40px;
+		    border: solid white;
+		    border-radius: 50%;
+		    background-color: white;
+		    color: red;
+		    position: relative;
+		    font-size: 20px;	
+		}
+		.headertext {
+			/* width: 300px; */
+		    height: 100px;
+		    border: transparent;
+		    color: white;
+		    position: relative;
+		     top:100px;
+		    left:50px;
+		    font-size: 24px;
+		    font-weight: bold;
+		    text-align: center;
+		}
+	
+	    .searchoption{
+			 margin-top: 70px !important;
+			 width: 85%;
+
+	    }
+		.locationbox{
+			width: 250px;
+			height: 57px;
+			/* margin-left: 300px;		 */
+			/* padding: 20px; */
+			background-color: #fff;
+			font-size: 18px;
+			position: relative;
+			left: 300px;
+		}
+		.searchbox{
+			position: relative;
+		}
+		.SearchIcon{
+			position: absolute;
+			top: 0px;
+			left: 30px;
+		}
+		.searchinput{
+			width: 477px;
+			height: 57px;
+			margin: 0 0 0 21px;
+			padding: 20px;
+			background-color: #fff;
+			padding-left: 30px;
+			font-size: 16px;
+		}
+
+	.qs-heading{
+		height: 43px;
+		font-family: Poppins;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 1.53;
+		letter-spacing: normal;
+		color: #162f60;
+	}
+
+	.qs-subheading{
+		height: 25px;
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.53;
+		letter-spacing: normal;
+		color: #8c96ab;
+	}
+	.qs-boxes-containers{
+		margin-top: 30px;
+	}
+
+
+	.qs-box-containers{
+		height:160px;
+		box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+		background-color: #fff;
+		/* margin-right: 30px; */
+		margin-bottom: 30px;
+		position: relative;
+	}
+	.qa-image{
+		width: 160px;
+		height: 160px;
+		margin: 0 29px 0 0;
+	}
+
+	.qs-item-heading{
+		position: absolute;
+		top:30px;
+		left:190px;
+		height:25px;
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.5px;
+		letter-spacing: normal;
+		text-align: left;
+		color: #192f60;
+	}
+
+	.qs-item-description{
+		position: absolute;
+		top:45px;
+		left:190px;
+		max-width: 190px;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 600;
+		/* line-height: 1.5px; */
+		letter-spacing: normal;
+		text-align: left;
+		color: #8c96ab;
+	} 
+
+	.drops{
+		list-style: none;
+		background-color: lightgray;
+		background-image: linear-gradient(90deg,red 20px,lightgray 10px);
+		padding: 10px 15px 10px 25px;
+		border: 1px solid #ccc;
+		box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+		margin-bottom: 5px;
+		width: 100%;
+		box-sizing: border-box;
+		cursor: pointer;
+		border-radius: 3px;
+	}
+	#query{
+		width: 100%;
+		box-sizing: border-box;
+		font-size: 19px;
+		padding: 5px;
+		font-family: calibri light;
+		border: 1px solid rgba(0,0,0,0.2);
+		border-radius: 3px;	
+		background-color: lightgray;
+		color: gray;
+		padding-left: 29px;
+
+	}
+
+	#suggestbox{
+		position: absolute;
+		left: 41%;
+		width: 350px;
+		border-radius: 5px;
+		max-height: 450px;
+
+	}
+	ul{
+		margin: 0 auto;
+		padding: 0;
+		max-height: 390px;
+		overflow-y: auto;
+		border: 1px solid rgba(0,0,0,0.1);
+		padding: 5px 5px 0 5px;
+		border-left: none;
+		border-right: none;
+		margin-left: 17px;
+	}
